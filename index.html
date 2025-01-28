@@ -67,7 +67,7 @@
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <img src="./images/logo2.png" alt="">
+          <img class="hidden md:block" src="./images/logo2.png" alt="">
 
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -118,7 +118,7 @@
     </nav>
     <!-- banner part  -->
     <div class="bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0)),url('./images/banner.png')] bg-no-repeat
-    bg-cover bg-center text-white w-full text-center">
+    bg-cover bg-center text-white h-full w-full  text-center">
       <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20   mx-auto space-y-6">
 
         <h1 class="font-extrabold text-4xl md:text-7xl main-font">We Provide Effective <br> Legal Solutions</h1>
@@ -256,15 +256,18 @@
         <!-- slide1 -->
           <div id="slide1" class="carousel-item relative w-full">
             <div class="bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0)),url('./images/slider-1.jpg')] bg-no-repeat
-            bg-cover bg-center text-white w-full h-full md:h-full text-center">
-              <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20   mx-auto space-y-4">
-                <img class="mx-auto" src="./Ellipse 1.svg" alt="">
-                <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
-                <h6>UIX Designer</h6>
-                <p class="lg:w-3/4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the
-                  majority
-                  have suffered alteration in some form,
-                  by injected humour.</p>
+            bg-cover bg-center text-white w-full h-full md:h-full text-center lg:h-[600px]  ">
+              <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20  h-full flex flex-col">
+                <div class="my-auto space-y-4">
+
+                  <img class="mx-auto " src="./Ellipse 1.svg" alt="">
+                  <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
+                  <h6>UIX Designer</h6>
+                  <p class=" lg:w-3/4 mx-auto">Contrary to popular belief,
+                    <br class="md:hidden"> Lorem Ipsum is not simply<br class="md:hidden"> random text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur.</p>
+                </div>
               </div>
             </div>
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -275,16 +278,18 @@
               <!-- slide2 -->
           <div id="slide2" class="carousel-item relative w-full">
             <div class="bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0)),url('./images/slider-2.jpg')] bg-no-repeat
-                    bg-cover bg-center text-white w-full h-full md:h-full text-center">
-              <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20   mx-auto space-y-4">
-                <img class="mx-auto" src="./Ellipse 1.svg" alt="">
-                <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
-                <h6>UIX Designer</h6>
-                <p class="lg:w-3/4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the
-                  majority
-                  have suffered alteration in some form,
-                  by injected humour.</p>
+                    bg-cover  bg-top text-white w-full h-full md:h-full text-center lg:h-[600px]  flex flex-col items-center">
+                         <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20  h-full flex flex-col">
+                <div class="my-auto space-y-4">
 
+                  <img class="mx-auto " src="./Ellipse 1.svg" alt="">
+                  <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
+                  <h6>UIX Designer</h6>
+                  <p class=" lg:w-3/4 mx-auto">Contrary to popular belief,
+                    <br class="md:hidden"> Lorem Ipsum is not simply<br class="md:hidden"> random text. It has roots in a piece of classical Latin literature
+                  from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                  looked up one of the more obscure Latin words, consectetur.</p>
+                </div>
               </div>
             </div>
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -296,17 +301,22 @@
           <div id="slide3" class="carousel-item relative w-full">
 
             <div class="bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0)),url('./images/slider-3.jpg')] bg-no-repeat
-                        bg-cover bg-center text-white w-full h-full md:h-full text-center">
-              <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20   mx-auto space-y-4">
-                <img class="mx-auto" src="./Ellipse 1.svg" alt="">
-                <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
-                <h6>UIX Designer</h6>
-                <p class="lg:w-3/4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the
-                  majority
-                  have suffered alteration in some form,
-                  by injected humour.</p>
-
-              </div>
+                        bg-cover  bg-top text-white w-full h-full md:h-full text-center lg:h-[600px]  flex flex-col items-center">
+                <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20  h-full flex flex-col">
+                  <div class="my-auto space-y-4">
+                
+                    <img class="mx-auto " src="./Ellipse 1.svg" alt="">
+                    <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
+                    <h6>UIX Designer</h6>
+                    <p class=" lg:w-3/4 mx-auto">Contrary to popular belief,
+                      <br class="md:hidden"> Lorem Ipsum is not simply<br class="md:hidden"> random text. It has roots in a piece of
+                      classical Latin literature
+                      from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                      Virginia,
+                      looked up one of the more obscure Latin words, consectetur.
+                    </p>
+                  </div>
+                </div>
             </div>
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
               <a href="#slide2" class="btn btn-circle bg-transparent"><i class="fa-solid fa-arrow-right text-white rotate-180"></i></a>
@@ -316,15 +326,21 @@
               <!-- slide4 -->
           <div id="slide4" class="carousel-item relative w-full">
             <div class="bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0)),url('./images/banner.png')] bg-no-repeat
-                            bg-cover bg-center text-white w-full h-full md:h-full text-center">
-              <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20   mx-auto space-y-4">
-                <img class="mx-auto" src="./Ellipse 1.svg" alt="">
-                <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
-                <h6>UIX Designer</h6>
-                <p class="lg:w-3/4 mx-auto">There are many variations of passages of Lorem Ipsum available, but the
-                  majority
-                  have suffered alteration in some form,
-                  by injected humour.</p>
+                            bg-cover  bg-center text-white w-full h-full md:h-full text-center lg:h-[600px] flex flex-col items-center">
+              <div class="p-5 md:px-32 lg:px-52 py-16 lg:py-20  h-full flex flex-col">
+                <div class="my-auto space-y-4">
+              
+                  <img class="mx-auto " src="./Ellipse 1.svg" alt="">
+                  <h1 class="font-bold text-2xl md:text-4xl main-font">Awlad Hossain</h1>
+                  <h6>UIX Designer</h6>
+                  <p class=" lg:w-3/4 mx-auto">Contrary to popular belief,
+                    <br class="md:hidden"> Lorem Ipsum is not simply<br class="md:hidden"> random text. It has roots in a piece of
+                    classical Latin literature
+                    from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+                    Virginia,
+                    looked up one of the more obscure Latin words, consectetur.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -459,6 +475,7 @@
         <a class="link link-hover  text-[#CFCFCF]">Jobs</a>
         <a class="link link-hover  text-[#CFCFCF]">Press kit</a>
       </nav>
+      
       <nav>
         <h6 class="footer-title mb-5 text-white main-font opacity-100">Contact Now</h6>
         <p class=" text-[#CFCFCF]">555 4th 5t NW, Washington <br>
@@ -470,7 +487,7 @@
       </nav>
       <form>
         <h6 class="footer-title mb-5 text-white main-font opacity-100">Newsletter</h6>
-        <fieldset class="form-control w-80 space-y-5  text-[#CFCFCF]">
+        <fieldset class="form-control w-3/4 md:w-80 space-y-5  text-[#CFCFCF]">
           <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
           <div class="join">
             <input type="email" placeholder="Email Address" class="input input-bordered join-item" />
